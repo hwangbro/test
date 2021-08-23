@@ -12,6 +12,7 @@ All pages are formated with GitHub flavored Markdown, to learn more about this, 
 ### Setting up GitHub Desktop
 
 * Download and install [Git](https://git-scm.com/downloads) from one of the top links for your the appropriate OS.
+    * You can leave all the installation options as default
 * Go to [GitHub](https://github.com) and sign up for an account.
 * Navigate to the [Speedrun Routes Repository](https://github.com/pokemon-speedrunning/speedrun-routes) and hit `Fork` in the top right corner.
     * You should be on a copy of the speedrun-routes repository in your own account.
