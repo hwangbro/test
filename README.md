@@ -46,7 +46,7 @@ All pages are formated with GitHub flavored Markdown, to learn more about this, 
 * In your Git Bash shell, type `git config --global user.email you@example.com`, with your email address
 
 
-### Submitting a Pull Request
+### Creating a Pull Request
 * In GitHub, a Pull Request represents a proposal to make some changes, and is usually reviewed and approved by someone else. To start, we need to upload our changes to our local fork of `speedrun-routes`.
 * In your Git Bash shell, you can go and do a `git add <file_name>` for each file that you changed.
     * You can do the command `git status` to see a summary of what files you've made changes to in red
@@ -55,4 +55,8 @@ All pages are formated with GitHub flavored Markdown, to learn more about this, 
     * You can do another `git status` and you should see the files you add in green.
 * After you have added all the files you made changes to, we want to bundle them into a "commit". Do this by doing `git commit -m "YOUR DESCRIPTION HERE"`, where you give a short description of your changes. The quotation marks need to be part of this command.
     * For example, `git commit -m "Update Moon Rocket fight in Beginner Guide"`
-* Then we want to push this commit back to GitHub. Do this by doing a `git push origin`
+* Then we want to push this commit back to GitHub. Do this by doing a `git push origin`.
+* If you need to make more changes, you can go through these steps again to make changes to a file, do a `git add <file>`, `git commit -m "commit description"`, and `git push origin`.
+
+* If you go back to your fork of speedrun-routes (https://github.com/<YOUR_GITHUB_NAME>/speedrun-routes) on your GitHub account and click the `branches` button, you should see your newly created branch listed there.
+* Once you click the branch that you created, you should see a green "Compare & pull request" button at the top. Click that once you are ready to have your changes reviewed.
