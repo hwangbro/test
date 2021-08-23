@@ -17,8 +17,8 @@ All pages are formated with GitHub flavored Markdown, to learn more about this, 
 * Navigate to the [Speedrun Routes Repository](https://github.com/pokemon-speedrunning/speedrun-routes) and hit `Fork` in the top right corner.
     * You should be on a copy of the speedrun-routes repository in your own account.
 * Click the green `Code` button and copy the link in the box.
-* On your computer, navigate to the location where you want to store a local copy of `speedrun-routes` and open a git bash shell.
-    * If you installed Git with all the default options, you should be able to right click and press `Git Bash Here`
-* In the Git Bash window, type `git clone ` followed by the link you copied from GitHub and press Enter.
+* On your computer, navigate to the location where you want to store a local copy of `speedrun-routes`.
+* Once you have that location open, you should be able to right click and press `Git Bash Here` if you installed Git with the default options
+* In the Git Bash window, type `git clone ` followed by the link you copied from GitHub and press Enter. In Git Bash, you can paste using `shift+ins`
     * e.g. `git clone https://github.com/hwangbro/speedrun-routes.git`
 * After the command finishes, you should have a copy of `speedrun-routes` downloaded to your computer.
