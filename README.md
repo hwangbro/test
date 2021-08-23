@@ -11,7 +11,7 @@ All pages are formated with GitHub flavored Markdown, to learn more about this, 
 
 ### Setting up GitHub Desktop
 
-* Download and install [Git](https://git-scm.com/downloads) from one of the top links for your the appropriate OS.
+* Download and install [Git (https://git-scm.com/downloads)](https://git-scm.com/downloads) from one of the top links for your the appropriate OS.
     * You can leave all the installation options as default
 * Go to [GitHub](https://github.com) and sign up for an account.
 * Navigate to the [Speedrun Routes Repository](https://github.com/pokemon-speedrunning/speedrun-routes) and hit `Fork` in the top right corner.
@@ -22,3 +22,8 @@ All pages are formated with GitHub flavored Markdown, to learn more about this, 
 * In the Git Bash window, type `git clone ` followed by the link you copied from GitHub and press Enter. In Git Bash, you can paste using `shift+ins`
     * e.g. `git clone https://github.com/hwangbro/speedrun-routes.git`
 * After the command finishes, you should have a copy of `speedrun-routes` downloaded to your computer.
+
+
+### Configuring your local copy
+* In Git Bash, navigate to the `speedrun-routes` folder with the command `cd speedrun-routes`
+* Once here, we need to setup our repo to point to the original copy. Enter the command `git remote add upstream https://github.com/pokemon-speedrunning/speedrun-routes`
