@@ -40,6 +40,12 @@ All pages are formated with GitHub flavored Markdown, to learn more about this, 
 * Now that we're here, you can start making changes to the route files you downloaded locally.
 
 
+### Setting up Git Information
+* We need to setup some basic information for Git to communicate with GitHub.
+* In your Git Bash shell, type `git config --global user.name "YOUR USENRAME"`, with the quotation marks included as part of the command.
+* In your Git Bash shell, type `git config --global user.email you@example.com`, with your email address
+
+
 ### Submitting a Pull Request
 * In GitHub, a Pull Request represents a proposal to make some changes, and is usually reviewed and approved by someone else. To start, we need to upload our changes to our local fork of `speedrun-routes`.
 * In your Git Bash shell, you can go and do a `git add <file_name>` for each file that you changed.
