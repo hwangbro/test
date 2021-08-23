@@ -47,6 +47,6 @@ All pages are formated with GitHub flavored Markdown, to learn more about this, 
     * For example, if you changed `docs\gen-1\red-blue\catext\catch-em-all-classic\resources\pokemon-by-index.md`, you would do `git add docs\gen-1\red-blue\catext\catch-em-all-classic\resources\pokemon-by-index.md`
     * Note that you can tab complete file and folder names when typing this out.
     * You can do another `git status` and you should see the files you add in green.
-* After you have added all the files you made changes to, we want to bundle them into a "commit". Do this by doing `git commit -m "YOUR DESCRIPTION HERE"`, where you give a short description of your changes.
+* After you have added all the files you made changes to, we want to bundle them into a "commit". Do this by doing `git commit -m "YOUR DESCRIPTION HERE"`, where you give a short description of your changes. The quotation marks need to be part of this command.
     * For example, `git commit -m "Update Moon Rocket fight in Beginner Guide"`
 * Then we want to push this commit back to GitHub. Do this by doing a `git push origin`
