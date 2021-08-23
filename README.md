@@ -43,6 +43,7 @@ All pages are formated with GitHub flavored Markdown, to learn more about this, 
 ### Submitting a Pull Request
 * In GitHub, a Pull Request represents a proposal to make some changes, and is usually reviewed and approved by someone else. To start, we need to upload our changes to our local fork of `speedrun-routes`.
 * In your Git Bash shell, you can go and do a `git add <file_name>` for each file that you changed.
+    * You can do the command `git status` to see a summary of what files you've made changes to.
     * For example, if you changed `docs\gen-1\red-blue\catext\catch-em-all-classic\resources\pokemon-by-index.md`, you would do `git add docs\gen-1\red-blue\catext\catch-em-all-classic\resources\pokemon-by-index.md`
     * Note that you can tab complete file and folder names when typing this out.
 * After you have added all the files you made changes to, we want to bundle them into a "commit". Do this by doing `git commit -m "YOUR DESCRIPTION HERE"`, where you give a short description of your changes.
