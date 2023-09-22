@@ -33,7 +33,7 @@
     ![](https://puu.sh/JQAof/05fefdc5eb.png)
   - I would recommend putting these video players at full screen, 0 audio, and minimized.
     - For the one stream that you want to hear audio, raise their volume but leave everyone else muted
-    - **If you end up cropping in VLC, then resizing the VLC window, the cropping will be messed up**
+    - **If you end up cropping in OBS, then resizing the VLC window, the cropping will be messed up**
 
 ## Audio Sources
 - I mute Desktop Audio and capture the individual audio sources directly with `Application Audio Capture (BETA)`
