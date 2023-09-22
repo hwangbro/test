@@ -41,6 +41,12 @@
   - This will create a duplicate source that you can crop out different portions if needed.
     - If you change the `Window` of one of these duplicated sources to a different stream, it will update all of them
     - My layout ends up being 3 duplicate sources for each game feed (game feed, timer, DVs)
+    <details>
+    <summary>example</summary>
+
+    ![](https://puu.sh/JQAof/05fefdc5eb.png)
+
+    </details>
   - I would recommend putting these video players at full screen, 0 audio, and minimized.
     - For the one stream that you want to hear audio, raise their volume but leave everyone else muted
     - **If you end up cropping in VLC, then resizing the VLC window, the cropping will be messed up**
