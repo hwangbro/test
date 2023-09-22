@@ -7,13 +7,7 @@
 # Using Streamlink
 - Once you have streamlink installed, open up a command prompt
   - On Windows, you can hit `Win+r` to open a run prompt, then `cmd`
-  <details>
-    <summary>example</summary>
-
     ![](https://puu.sh/JQAld/12b39942a3.png)
-
-  </details>
-
 - In the command prompt, you can type `streamlink <twitch_url> best` and this should open up a new VLC window with a stream playing
   - e.g. `streamlink twitch.tv/arayalol best`
 - You might see a lot of warnings, but as long as the stream is playing in the video player, I've been ignoring them without any issues.
@@ -29,24 +23,13 @@
 - Use `Game Capture` with `Capture specific window` to capture a person's stream into OBS
   - Make sure the specific window for this scene is pointed at their VLC
   - Each game feed is a `Game Capture` with mode `Capture specific window`, and pointed to a VLC stream that is open.
-  <details>
-    <summary>example</summary>
-
      ![](https://puu.sh/JQAlO/ad9b1993d5.jpg)
-
-  </details>
-
   - To capture the runner's timer, you can right click the VLC source, `copy`, then `paste (reference)`.
     - Also clicking on the Source, `Ctrl+C`, `Ctrl+V`
   - This will create a duplicate source that you can crop out different portions if needed.
     - If you change the `Window` of one of these duplicated sources to a different stream, it will update all of them
     - My layout ends up being 3 duplicate sources for each game feed (game feed, timer, DVs)
-    <details>
-    <summary>example</summary>
-
     ![](https://puu.sh/JQAof/05fefdc5eb.png)
-
-    </details>
   - I would recommend putting these video players at full screen, 0 audio, and minimized.
     - For the one stream that you want to hear audio, raise their volume but leave everyone else muted
     - **If you end up cropping in VLC, then resizing the VLC window, the cropping will be messed up**
@@ -62,12 +45,7 @@
 - To switch streams, you can use their existing command prompt and not need to open a new one.
 - You can either close the VLC window, or hit `Ctrl+C` a few times until the stream closes
   - Identifying the correct command prompt for the right stream can be tricky, but you should be able to see the command you ran that has the stream title
-  <details>
-  <summary>example</summary>
-
   ![](https://puu.sh/JQAn5/b149a177bd.jpg)
-
-  </details>
 - Once you close the stream, you should be able to run another streamlink command to the new stream
   - e.g. `streamlink twitch.tv/redracetv best`
 - After the new VLC window opens, you can find the VLC source(s) that were pointing to the old stream and update the window to point to the new VLC window
@@ -76,12 +54,7 @@
 
 # Screenshare for commentators
 - To give commentators the best setup to view the restream without latency, I open a `Windowed Projector (Preview)` and full screen it
-  <details>
-  <summary>example</summary>
-
   ![](https://puu.sh/JQAmD/9adeb05536.jpg)
-
-  </details>
 - You can then screenshare the preview window in Discord
 - Unfortunately the commentators won't be able to hear game audio.
 
