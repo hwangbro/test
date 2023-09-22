@@ -7,6 +7,7 @@
 # Using Streamlink
 - Once you have streamlink installed, open up a command prompt
   - On Windows, you can hit `Win+r` to open a run prompt, then `cmd`
+    
     ![](https://puu.sh/JQAld/12b39942a3.png)
 - In the command prompt, you can type `streamlink <twitch_url> best` and this should open up a new VLC window with a stream playing
   - e.g. `streamlink twitch.tv/arayalol best`
